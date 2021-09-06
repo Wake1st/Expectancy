@@ -1,0 +1,583 @@
+[
+    {
+        "id": 0,
+        "title": "Beginning",
+        "description": "You've been hired to move some furniture out of the old house, just outside of town.",
+        "options": [
+            {
+                "id": 1,
+                "text": "It's just some furniture..."
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "description": "When you arrive, you park the van and knock on the front door. You wait a few minutes, but no one answers. What will you do?",
+        "options": [
+            {
+                "id": 1000,
+                "text": "Just keep knocking; maybe they didn't hear you."
+            },
+            {
+                "id": 2000,
+                "text": "Look around the house - there might be a back door or something."
+            },
+            {
+                "id": 3000,
+                "text": "Just wait by the van."
+            }
+        ]
+    },
+    {
+        "id": 1000,
+        "description": "You knock a few times more and wait. You knock several times more and wait. If someone's home, they can't seem to hear you.",
+        "options": [
+            {
+                "id": 1100,
+                "text": "They'll hear you if you knock loud enough."
+            },
+            {
+                "id": 1400,
+                "text": "Just look around the house; someone's bound to be home."
+            },
+            {
+                "id": 1700,
+                "text": "Try the handle."
+            }
+        ]
+    },
+    {
+        "id": 1100,
+        "description": "You continue to knock, fists bearing down hard, beating the door, senselessly, relentlessly, desparate to be heard. 'Why is noone coming? Can't they hear me,' you think to yourself. They did call you, after all.",
+        "options": [
+            {
+                "id": 1110,
+                "text": "It's all just a joke - they're playing with you."
+            },
+            {
+                "id": 1140,
+                "text": "Can anyone hear?"
+            },
+            {
+                "id": 1170,
+                "text": "Knock. Knock. Knock."
+            }
+        ]
+    },
+    {
+        "id": 1110,
+        "description": "You hear their giggling, their taunts - the twisted games they play on you. You've always been nothing to them, nothing but a toy, something they use to amuse themselves. There was never any furniture to move; no old house at the edge of town; no door to bang against; no fists to beat with; no malice; no intent... you were never anything.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1140,
+        "description": "Is anyone really there? Are you even making a sound? All your knocking, your weakened fists helplessly striking the door, feebly playing the drums of acknowledgement, barely making a sound. You are nothing but misaimed intensions: a slow moving projectile, shot from nothing of consequence, going nowhere important... and no one ever really heard you.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1170,
+        "description": "You continue to knock at the door. The pounding of your clenched fists ringing out with greater and greater thunder. You begin to hear that pounding overlap, and soon a chorus, no - a symphony of thunderous roaring. More a drum than a door, more a demand than a request; waves beating against a rock, bearing down all manner of fury. You are only that furry. You are the beating drum. You are the wave breaking against the rocks... soon to break the very earth itself.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1400,
+        "description": "You stomp off - searching all sides of the house. You call out here and there, but noone answeres. You find yourself at the front; frustrated, you cross your arms and stand, stubbornly, seeking out the next best course of action.",
+        "options": [
+            {
+                "id": 1410,
+                "text": "There's gotta be a door somewhere?"
+            },
+            {
+                "id": 1440,
+                "text": "Keep walking around the house - maybe you'll see someone."
+            },
+            {
+                "id": 1470,
+                "text": "Just leave; you've got better things to do with your time."
+            }
+        ]
+    },
+    {
+        "id": 1410,
+        "description": "There has to be another door! Somewhere, somehow, in the back of the house, on the side. You turn corner after corner, doubling back, searching, peering, hoping to find something. Nothing but flat walls and windows, walls and windows, walls and windows. You're not even certain which side of the house you're on, or if there's even a house anymore. Nothing but walls and windows. You feel around, hoping to catch a handle - even a hinge. Nothing but wall and windows. You're scraping along, digging your nails into the wood, tearing the paint off. There has to be something - anything! Anything but walls and windows. There's nothing anymore; no doors to find, and no one to answer them. You are forever lost in a maze, trapped without a way out. Trapped with nothing; nothing but walls and windows.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1440,
+        "description": "You march around the house, flustred and upset. You start to mutter to yourself about the house and the furniture and the job... Suddenly, you are face to face with yourself... It's you, standing and staring, at you...",
+        "options": [
+            {
+                "id": 1441,
+                "text": "Demand to know what's going on."
+            }
+        ]
+    },
+    {
+        "id": 1441,
+        "description": "You shout at them, demanding them to explain this, but they speak when you do, asking the same thing. This isn't funny anymore, just then you hear a russle behind you; you turn to see another you moving from the bushes, and someone else running into the forrest.",
+        "options": [
+            {
+                "id": 1442,
+                "text": "After them!"
+            },
+            {
+                "id": 1446,
+                "text": "Accuse the others!"
+            }
+        ]
+    },
+    {
+        "id": 1442,
+        "description": "You case them, into the woods - they won't get away from you. They're going to pay for this maddness. They fall in the dark, and you leap at them, trapping them beneath you. You wrap your hands around their throat. You scream at them, words forbidden, yet you understand them. You now know perfectly well what's going on, what has always been going on. You hear yourself cry out. You turn to see yourself stepping through the brush. You leap out at them. You take off to kill the other. You sit where you are. You are going to kill them all, and they're all going to kill you...",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1441,
+        "description": "You accuse more, more violently than before. A form passes through you into the woods. What are they planning? They're in it together, they must be! They're moving, positioning, trying to trap you. One of them makes their move, but you're quicker them these fakes. You lunge out, you strike, they fall, and the others quickly join in. They wanted this; now they're going to get it!",
+        "options": [
+            {
+                "id": 2111,
+                "text": "Kill."
+            }
+        ]
+    },
+    {
+        "id": 1470,
+        "description": "You get in the van and drive back down the winding road into town. Things seems different than when you drove out here - it may be darker, but you could have sworn there weren't so many turns in the road. In fact, the road has been turning left now for... how long? A minute goes by, then another. The road continues to turn, round and round, like a carrosel. Maybe you've always been on this road. Maybe there never was a destination, or even a starting point. Nothing but to go round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and round and a light shines directly into the van. Crash! You're thrown from the van, and after tumbling onto the hard asphalt, you barely recognise yourself, lieing next to you, a mad look in your eyes.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1700,
+        "description": "Much to your embarrassment, the door opens... At least you're inside now, but now what?",
+        "options": [
+            {
+                "id": 1710,
+                "text": "Call out."
+            },
+            {
+                "id": 1760,
+                "text": "Look around."
+            }
+        ]
+    },
+    {
+        "id": 1710,
+        "description": "You call out, hoping for a simple answer to settle your nerves. What you hear is only unsettling. Rumbling, shaking, quaking: the door you passed through now rattles violently, like a wild beast trying to tear through it's cage. You feel the floor vibrate, dust falls from the ceiling, and the windows start to shatter. The whole house shakes, mad and rapid, as if it means to shake itself into nothingness. You hear a comotion upstairs, and you turn to see people fighting and fleeing. Everything is blurry now; everything is moving a immeasurable frequencies; everything screams higher and higher; everything is just a smear across the universe.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 1760,
+        "description": "You look around, and soon hear voices coming from upstairs. You decide to creep upstairs, toward the voices, their strange chants seem to sink deep in your mind. Things begin to shake, and commotion starts to gather from the room with the voices. The door flings open; people with dark, hooded robes pour out, terrified. One of them charges straight at you. You grapple with them as they speak strange words to you, you try to explain your self, but the words from your mouth are strange as well. You know not what they say, and they seem just as terrified as you. Tangled up, struggling against each other, you both feel your souls pulled out from your bodies, but you are not the souls within - you are only the animals, barking and biting, terrified amists the turmoil. You both scream into each others empty forms; nothing screams back.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 2000,
+        "description": "You walk around the side of the house. Just as you turn the corner, you get a glimspe of someone dissappearing behind the back of the house.",
+        "options": [
+            {
+                "id": 2100,
+                "text": "Call out to them!"
+            },
+            {
+                "id": 2500,
+                "text": "Follow, but quietly."
+            }
+        ]
+    },
+    {
+        "id": 2100,
+        "description": "You call out, but they do not respond. You begin chasing after them. More nervous than before, you call out again, louder this time. You stop after rounding the next corner to catch your breath... then you hear the muttering comming from behind you. You turn to greet them, but it's you... face to face with you...",
+        "options": [
+            {
+                "id": 2110,
+                "text": "Ask what's going on."
+            }
+        ]
+    },
+    {
+        "id": 2110,
+        "description": "You ask them who they are and what's happening. The other is growing more and more hostile. Another of you apears, then another! The angriest one takes off into the woods, leaving another angry one still standing, facing you. You see a madness in their eyes, you feel it, and fear it, in yourself as well. You're not sure who moves first, but in an instant you're both attacking each other - you're just trying to control the situation, you don't want anyone to get hurt.",
+        "options": [
+            {
+                "id": 2111,
+                "text": "Try not to get hurt."
+            }
+        ]
+    },
+    {
+        "id": 2111,
+        "description": "Maybe it's the strangness of it all, maybe it's something in the air, or maybe you were always this violent, underneath it all. Whatever the reason, you and all forms of yourself fight and break and cry and kill like mad... and every moment, another version of you appears, only to join in the chaos.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 2500,
+        "description": "You creep up along the side of the house, listening, waiting. You hear sounds of someone approaching from behind. You duck behind some bushes, hoping to keep hidden. You catch a glimpse of the person who passes you, muttering under thier breath... they seem unsettlingly familiar. After they pass, you sneak along the house, and peak around the corner into the back. You see yourself, looking at... yourself? Two you's, staring at each other, with as much shock and horror in their faces as you have.",
+        "options": [
+            {
+                "id": 2110,
+                "text": "Step out and confront them."
+            },
+            {
+                "id": 2510,
+                "text": "Stay hidden."
+            }
+        ]
+    },
+    {
+        "id": 2110,
+        "description": "You step out and join the other two. They turn to you, and one of them points back at the bushes. You turn to see another you step out from where you were, and another take off into the woods, followed by another you! You quickly try to manuver yourself to face everyone you can see, but you're not even sure how many of you there are. You begin to panic; the others begin shouting at each other. The confusion is over whelming. One of you moves suddenly, another attacks, and all at once, everyone is fighting each other off.",
+        "options": [
+            {
+                "id": 2111,
+                "text": "Survive."
+            }
+        ]
+    },
+    {
+        "id": 2510,
+        "description": "A form passes through you... it's another you! There are now three, including you! Four yous! This is almost too much to bear - for all of you! Then, one of the yous spots you, and calls out!",
+        "options": [
+            {
+                "id": 2511,
+                "text": "Step out and join the group."
+            },
+            {
+                "id": 2517,
+                "text": "Run!"
+            }
+        ]
+    },
+    {
+        "id": 2511,
+        "description": "You boldly step out. Something russles behind you - you turn to see yourself fleeing into the woods, followed shortly by a different you. The others in the group continue to argue, getting louder and more on edge. Eventually, someone makes a move, and in an instant you're all fighting with yourselves.",
+        "options": [
+            {
+                "id": 2111,
+                "text": "Defend yourself."
+            }
+        ]
+    },
+    {
+        "id": 2517,
+        "description": "You take off into the woods, you hear another you yell at you and begin chasing. In the darkness, amongst unfamiliar terrain, it's only a matter of time before you stumble and fall. You almost leap upwards as fast as you fell, but you are tackled. You lie on your back, looking upwards, the last thing you see is your own mad face staring up at you, strangling you, yelling some horrid, otherworldly words.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3000,
+        "description": "You lean against the van, trying to distract yourself for several minutes. You hear a strange noise nearby.",
+        "options": [
+            {
+                "id": 3100,
+                "text": "Go investigate the noise."
+            },
+            {
+                "id": 3400,
+                "text": "Maybe wait IN the van."
+            },
+            {
+                "id": 3700,
+                "text": "Screw this! Its late and you don't get paid enough - time to leave!"
+            }
+        ]
+    },
+    {
+        "id": 3100,
+        "description": "You head towards the direction of the noise - a dense cluster of trees, near the side of the house. As you approach, you can hear more strange noises, quieter, and more unsettling than the first.",
+        "options": [
+            {
+                "id": 3110,
+                "text": "Enter the forest."
+            },
+            {
+                "id": 3160,
+                "text": "Call out."
+            }
+        ]
+    },
+    {
+        "id": 3110,
+        "description": "You enter the forest, pushing past the bushes and briars. You can hear the terrible sounds increasing, and a familiar voice call out from behind you. You step out into a small clearing, to see a terrifying yet familiar creature strangling someone on the ground. The creature looks at you, its eyes red; its bolts forth at you, and another from behind it! One rushes past as the other lunges at you. You fight it, tumbling onto the groud, wrestling with this wild beast. As it sits atop your, clawing and beating you, you search along the ground. You find something hard and strike the beast in the head. It falls over, limp. You jump upwards, and you hear more violent comotion, coming from all sides. You're going to fight them, and you're going to slay every horrible thing you find out here.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3160,
+        "description": "You call out from the tree line and wait. You can hear something, something moving at you. You suddenly see a pair of glowing red eyes rushing fast at you, but its too late. The thing is upon you, tearing away at you. In searing pain and shock, you can only try to defend youself from it, but it just lashing out, harsher and harsher. Like a wild animal, hungry for blood.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3400,
+        "description": "You get in the van, a quicker than usual. Closing, and locking, the doors, you don't feel too safe, but definitelly safer than before. Your eyes start to feel heavy...",
+        "options": [
+            {
+                "id": 3410,
+                "text": "Get some rest - you've earned it!"
+            },
+            {
+                "id": 3700,
+                "text": "Oh no; we're leaving now."
+            }
+        ]
+    },
+    {
+        "id": 3700,
+        "description": "You drive away from the spooky house, heading down the winding road that leads back into town. The road comes to a fork; which direction do you choose?",
+        "options": [
+            {
+                "id": 3710,
+                "text": "Right: its a longer route, but a reliable one."
+            },
+            {
+                "id": 3760,
+                "text": "Left is a shortcut, or it should be. It probably is."
+            }
+        ]
+    },
+    {
+        "id": 3760,
+        "description": "You continue down a winding road, traveling unfamiliar terrain. This was absolutely not a shortcut. Suddenly, things start to feel familiar, but the relief you feel is short lived as you find yourself back at the old house. You're not certain how it happened - there's only one road to it, but regardless, you're here now.",
+        "options": [
+            {
+                "id": 3761,
+                "text": "... maybe look up a way out on your phone."
+            },
+            {
+                "id": 3766,
+                "text": "Must leave faster!"
+            }
+        ]
+    },
+    {
+        "id": 3766,
+        "description": "You speed down the winding road; this time there is no fork. Only a road, every curve and bend more worrisome. The enbankment has risen up on both sides - the earth itself seems eager to engulf you.",
+        "options": [
+            {
+                "id": 3767,
+                "text": "Call for help!"
+            },
+            {
+                "id": 3768,
+                "text": "Drive up the embankment!"
+            },
+            {
+                "id": 3769,
+                "text": "FASTER!"
+            }
+        ]
+    },
+    {
+        "id": 3767,
+        "description": "You pull your phone out, eyes dashing quickly between the road and the buttons, and dial 911. You hear it ring, and ring, and ring... and ring... ring... r i n g . . . .    r   i   n   g   .   .   .   .   .   .      As the ringing is drawn out, you begin to hear the many layered voices... and then you hear it, like a mirror of sound, you hear yourself calling out again... and again . . .   a g a i n   .     .     .     .     .     .     .     .     ",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3768,
+        "description": "You head off the road, up the side of the hill. Despite your speed, even as you climb, the hill seems to grown, and the world around you continues the extend, further and further. The jaws of the earth close in, and what little light there was fades out, even the light in the van - sound itself fades. The jaws close shut, and you see nothing, you hear nothing, you feel nothing. In this endless enclosed void, you struggle in your mind to be free, but you have nothing to struggle against... or with which to struggle.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3769,
+        "description": "Faster and faster you go, the road twisting like a snake. You're moving so fast and eratic, you begin to wonder if the road is chasing you. The dashed lines turn solid. The solid lines widen. The embankment is long gone, replaced with a deep, unseen emptiness. None of it matters. Only the road, and its unknowable end. A piercing light shines out, blinding you, stabbing you, tearing at the maddness in your mind. As thunder follows lightning, the crash follows the headlights, and you're sent hurling forth, the glass flickering in the light... you open your eyes, and in searing pain, you barely recognise yourself, lieing next to you, eyes lost in delirium, while the asphalt snake slithers away, mocking you with it's infinite length.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3761,
+        "description": "You search for a way back on your phone. As the directions on your phone load, you see an ever increasing, winding path, growing outward, like a maze. You feel yourself enwrapped in the map, it's intricate path. You loose track of where the path begins or ends, but it doesn't matter anymore. All you feel, your state of being, is entangled within the ribons of a path, endless and eternal. All things are upon the path, and path leads to, from, and through all things... You are only a series of paths, leading to nowhere.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3710,
+        "description": "You're quickly back on the highway. There's a sense of comfort being in familiar territory, but that is quickly undone when you notice that the road is blocked off.",
+        "options": [
+            {
+                "id": 3711,
+                "text": "Try to find a different way."
+            },
+            {
+                "id": 3716,
+                "text": "Just ignore it. There's always road cones out for no reason."
+            }
+        ]
+    },
+    {
+        "id": 3711,
+        "description": "You turn the car around, and head the opposite way down the highway. You turn the car around, and head the opposite way down the highway. You turn the car around, and head the opposite way down the highway. You turn the car around, and head the opposite way down the highway. You turn the car around, and head the opposite way down the highway. You turn the car around, and head the opposite way down the highway.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3716,
+        "description": "You drive around the road block, pressing down the highway back to town. The highway banks left, and you see a 18-wheeler stopped in the middle of the highway, it's open, bed trailer carrying a some large piece of lab equiptment. Some people are running from it, a few others are frantically tampering with it. Then the machine splits into multiple forms, and the truck follows, and the road begins to split into a kaleidoscope of roads.",
+        "options": [
+            {
+                "id": 3717,
+                "text": "Back up!"
+            },
+            {
+                "id": 3118,
+                "text": "Witness and be in awe."
+            }
+        ]
+    },
+    {
+        "id": 3717,
+        "description": "You shift into reverse and slam on the gas. The mass of ever increasingly confusing forms of the universe. You try your best to keep the car straight, but you forget that the road just turned. You try to turn, but you overcompensate. The car flips and tumbles into the median. You last moments are filling with confusion, pain, and a sense of falling.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3118,
+        "description": "The growing phenomenon branching more and more objects, like a tree of mirrors, exponentially expanding, until it engulfs you. You feel a sense of folding, then fractilating, until all sensations, all thoughts, even feelings - every piece of you multiplies into millions of fuzzy corners of you, blending into a white noise, screaming at first, then fading into a strange harmony of everything.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3410,
+        "description": "You drift off in your seat, you body weary after working 10 hours. You see two stars in a dark sky; you drift toward them, and begin to disinguish two groups of people: one in lab coats, the other in dark cloaks.",
+        "options": [
+            {
+                "id": 3411,
+                "text": "Move toward the lab coats."
+            },
+            {
+                "id": 3414,
+                "text": "Move toward the dark cloaks."
+            },
+            {
+                "id": 3417,
+                "text": "Whoa... trippy."
+            }
+        ]
+    },
+    {
+        "id": 3411,
+        "description": "You drift to the lab coats; they are working at some, strange machine. Something is happening, but they don't understand what it is. The machine whirs and the light pouring out of it shines brighter. You become imbibed in a haze of light as the scientists begin shouting at each other, taking readings, making adjustments, trying to make sense of things. A beam of energy shoots out, roaring in luminescent anger... then it burst, shattering you into dust.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3414,
+        "description": "You drift to the group in dark cloaks. They stand in a circle, chanting a montra in some forbidden tongue. Someone stands in the middle, eyes glowing red; they seem to be in charge. The brilliant light shinning from the body of the leader grows outward in an glowing, red web. The one in the middle begins to shout orders at the others, all while wrestling with the entangled web. A beam of light bursts from the leader's chest; his body lifts off the ground, limp, like a puppet dangling from the tether of some greater force. The others panic: some begin chanting louder, others run, one curses the indescribable name of some ancient being. The leaders body instantly crumbles into the beam, and the cultists, the room itself, even your own spirit - all are pulled inward toward the center. You are crushed beyond an infantessimal point, ever falling into yourself.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": 3417,
+        "description": "The light from both groups grows brighter, and fields of light form around each. Both groups become busier, more frantic. As the fields grow, they start to bend and twist, two forms writing about, almost dancing. Eventually, the fields slam into each other, and a beam of thundering energy connects the light source of both groups. The beam seems to reverberate back and forth, violenlty undulating until both lights shatter, and the beam of energy schizmed, tearing open a void of things incomprehensible. The void grows, and swallows you up in a realm of beauty and terror. You become one with all things, and you become nothing at all.",
+        "options": [
+            {
+                "id": 0,
+                "text": "Maybe things will turn out different next time..."
+            }
+        ]
+    },
+    {
+        "id": -1,
+        "description": "Whoops! Looks like I forgot to tie up some loose ends; sorry, about that. Please, restart the game and choose one of the many paths other paths that await.",
+        "options": [
+            {
+                "id": 0,
+                "text": " - - RESTART - - "
+            }
+        ]
+    }
+]

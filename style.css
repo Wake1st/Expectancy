@@ -1,0 +1,120 @@
+body {
+  background-color: #010e2b;
+  color: #89b8f1;
+}
+
+a {
+  color: #89b8f1;
+  text-decoration: none;
+}
+
+#container {
+  width: 40%;
+  margin: 40% auto 0 auto;
+}
+
+
+/* Animations 
+---------------------------------------------------*/
+:root {
+  --fade-in: fadeIn ease 2s;
+}
+
+.fade-in {
+  animation: var(--fade-in);
+  -webkit-animation: var(--fade-in);
+  -moz-animation: var(--fade-in);
+  -o-animation: var(--fade-in);
+  -ms-animation: var(--fade-in);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+/* Screen change 
+---------------------------------------------------*/
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  {
+  #container {
+    width: 90%;
+    margin: 40% auto 0 auto;
+  }
+}
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (min-width:481px)  {
+  #container {
+    width: 80%;
+    margin: 40% auto 0 auto;
+  }
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+@media (min-width:641px)  {
+  #container {
+    width: 70%;
+    margin: 40% auto 0 auto;
+  }
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:961px)  {
+  #container {
+    width: 60%;
+    margin: 40% auto 0 auto;
+  }
+}
+/* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) {
+  #container {
+    width: 50%;
+    margin: 40% auto 0 auto;
+  }
+}
+/* hi-res laptops and desktops */ 
+@media (min-width:1281px) {
+  #container {
+    width: 40%;
+    margin: 40% auto 0 auto;
+  }
+}
