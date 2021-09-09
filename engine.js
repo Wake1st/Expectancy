@@ -27,20 +27,20 @@
     
         var choice = document.createElement('input');
         choice.type = 'button';
-        choice.classList.add('btn','btn-dark','btn-choice','text-wrap');
+        choice.classList.add('btn','btn-dark','btn-choice','text-wrap', 'option');
         
         optionNode.appendChild(choice);
     }
     
     function createDecision() {
-        decisionNode.classList.toggle('fade-in');
-    
+        $(decisionNode).attr('id','decision')
+
         var p = document.createElement('p');
         $(p).attr('id','description');
         p.classList.add('text-wrap');
     
         var options = document.createElement('div');
-        options.classList.toggle('justify-content-center');
+        options.classList.add('justify-content-center','fade-in');
         $(options).attr('id','options');
     
         decisionNode.appendChild(p);
@@ -51,12 +51,12 @@
     function callDecision(element) {
         var optionId = $(element).attr("id").replace("choice_", "");
         addDecision(optionId);
+        animate();
     }
     
     function addDecision(Id) {
         var decision = data.find(({id}) => id === parseInt(Id));
         decision ??= data.find(({id}) => id === -1);
-        //console.log(Id, decision);
         
         sessionStorage.setItem(saveKey,decision.id);
 
@@ -79,10 +79,48 @@
         });
     }
     
+
+    $.fn.characterize = function (wrapper, options) {
+        var txt = this.text(),
+        self = this;
+        
+        this.empty();
+        
+        wrapper = wrapper || '<span />';
+        options = options || {};
+        
+        Array.prototype.forEach.call(txt, function (c) {
+          options.text = c;
+          self.append($(wrapper, options));
+        });
+    };
     
+    function animate () {
+        var des = $('#description');
+        
+        des.css('opacity', 0);
+        
+        des.characterize('<span />', {
+          class: 'fd',
+          css: {
+            opacity: 0
+        }
+    });
+    
+    des.css('opacity', 1);
+    
+    $('.fd').each(function (i) {
+        $(this).animate({opacity: 1}, (i + 1) * 20);
+        });
+    }
+
+    
+
     createOption();
     createDecision();
 
     let savedId = sessionStorage.getItem(saveKey);
     addDecision(savedId ?? 0);
+    animate();
+    
 })();

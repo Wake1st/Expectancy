@@ -26,10 +26,11 @@ a {
 /* Animations 
 ---------------------------------------------------*/
 :root {
-  --fade-in: fadeIn ease 2.1s;
+  --fade-in: fadeIn ease 4.1s;
 }
 
 .fade-in {
+  animation-delay: 2s;
   animation: var(--fade-in);
   -webkit-animation: var(--fade-in);
   -moz-animation: var(--fade-in);
@@ -38,48 +39,33 @@ a {
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+  0% { opacity:0; }
+  60% { opacity: 0; }
+  100% { opacity:1; }
 }
 
 @-moz-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+  0% { opacity:0; }
+  60% { opacity: 0; }
+  100% { opacity:1; }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+  0% { opacity:0; }
+  60% { opacity: 0; }
+  100% { opacity:1; }
 }
 
 @-o-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+  0% { opacity:0; }
+  60% { opacity: 0; }
+  100% { opacity:1; }
 }
 
 @-ms-keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+  0% { opacity:0; }
+  60% { opacity: 0; }
+  100% { opacity:1; }
 }
 
 
@@ -89,7 +75,7 @@ a {
 @media (min-width:320px)  {
   #container {
     width: 90%;
-    margin: 10em auto 0 auto;
+    margin: 4em auto 0 auto;
   }
   *{
     font-size: xx-large;
@@ -99,7 +85,7 @@ a {
 @media (min-width:481px)  {
   #container {
     width: 80%;
-    margin: 10em auto 0 auto;
+    margin: 4em auto 0 auto;
   }
   *{
     font-size: x-large;
@@ -109,40 +95,27 @@ a {
 @media (min-width:641px)  {
   #container {
     width: 70%;
-    margin: 10em auto 0 auto;
+    margin: 4em auto 0 auto;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 @media (min-width:961px)  {
   #container {
     width: 60%;
-    margin: 10em auto 0 auto;
+    margin: 6em auto 0 auto;
   }
 }
 /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) {
   #container {
     width: 50%;
-    margin: 10em auto 0 auto;
+    margin: 6em auto 0 auto;
   }
 }
 /* hi-res laptops and desktops */ 
 @media (min-width:1281px) {
   #container {
     width: 40%;
-    margin: 10em auto 0 auto;
+    margin: 6em auto 0 auto;
   }
 }
-
-
-/* Typing animation
----------------------------------------------*/
-#description {
-  color: var(--font-color); 
-  overflow: hidden;
-  animation: type 1.4s steps(60, end); 
-}
-
-@keyframes type{ 
-  from { height: 0; } 
-} 
