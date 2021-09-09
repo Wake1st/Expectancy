@@ -138,6 +138,4 @@
     let savedId = sessionStorage.getItem(saveKey);
     addDecision(savedId ?? 0);
     animate('#description');
-    
-    $audio.animate({volume: newVolume}, 1000);
 })();
