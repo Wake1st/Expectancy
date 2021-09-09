@@ -37,6 +37,7 @@
     
         var p = document.createElement('p');
         $(p).attr('id','description');
+        p.classList.add('text-wrap');
     
         var options = document.createElement('div');
         options.classList.toggle('justify-content-center');
