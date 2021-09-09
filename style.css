@@ -1,6 +1,10 @@
 :root {
-  --backgroud-color: #010e2b;
-  --font-color: #89b8f1;
+  --backgroud-color: #080204;
+  --font-color: #f18997;
+
+  --button-color: #b86e81;
+  --button-hover: #e9a3b5;
+  --button-backgroud: #250d13;
 }
 
 * {
@@ -12,14 +16,24 @@ body {
   color: var(--font-color);
 }
 
-a {
-  color: var(--font-color);
+a, a:hover, a:focus, a:active {
+  color: #f5465d;
   text-decoration: none;
+  color: inherit;
 }
 
 #container {
   width: 40%;
   margin: 10em auto 0 auto;
+}
+
+.scary {
+  background-color: var(--button-backgroud);
+  color: var(--button-color);
+}
+
+.scary:hover {
+  color: var(--button-hover);
 }
 
 
@@ -30,7 +44,6 @@ a {
 }
 
 .fade-in {
-  animation-delay: 2s;
   animation: var(--fade-in);
   -webkit-animation: var(--fade-in);
   -moz-animation: var(--fade-in);
@@ -75,17 +88,17 @@ a {
 @media (min-width:320px)  {
   #container {
     width: 90%;
-    margin: 4em auto 0 auto;
+    margin: 4em auto 4em auto;
   }
   *{
-    font-size: xx-large;
+    font-size: x-large;
   }
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
 @media (min-width:481px)  {
   #container {
     width: 80%;
-    margin: 4em auto 0 auto;
+    margin: 4em auto 4em auto;
   }
   *{
     font-size: x-large;
@@ -95,27 +108,27 @@ a {
 @media (min-width:641px)  {
   #container {
     width: 70%;
-    margin: 4em auto 0 auto;
+    margin: 4em auto 4em auto;
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 @media (min-width:961px)  {
   #container {
     width: 60%;
-    margin: 6em auto 0 auto;
+    margin: 6em auto 4em auto;
   }
 }
 /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) {
   #container {
     width: 50%;
-    margin: 6em auto 0 auto;
+    margin: 6em auto 4em auto;
   }
 }
 /* hi-res laptops and desktops */ 
 @media (min-width:1281px) {
   #container {
     width: 40%;
-    margin: 6em auto 0 auto;
+    margin: 6em auto 4em auto;
   }
 }

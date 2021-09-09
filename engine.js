@@ -1,7 +1,11 @@
 (async () => {
+    const gameWrapper = document.getElementById('game-wrapper');
+    const aboutWrapper = document.getElementById('about-wrapper');
     const gameContainer = document.getElementById('container');
+
     const decisionNode = document.createElement('div');
     const optionNode = document.createElement('div');
+
     const saveKey = 'expectancyDecisionId';
 
     let data;
@@ -14,6 +18,7 @@
     
     data = await readJson('./decisions.json');
     
+
     gameContainer.addEventListener("click", (e) => {
         if ($(e.target).hasClass('btn-choice'))
             callDecision(e.target);
@@ -21,13 +26,25 @@
             console.log("non functioning: " + e.target);
     });
 
+    document.getElementById('game-nav').addEventListener('click', () => {
+        gameWrapper.style.display = 'inline-block';
+        aboutWrapper.style.display = 'none';
+        animate('#description');
+    });
+    
+    document.getElementById('about-nav').addEventListener('click', () => {
+        gameWrapper.style.display = 'none';
+        aboutWrapper.style.display = 'inline-block';
+        animate('#about');
+    });
 
+    
     function createOption() {
         optionNode.classList.add('m-1','col-12');
     
         var choice = document.createElement('input');
         choice.type = 'button';
-        choice.classList.add('btn','btn-dark','btn-choice','text-wrap', 'option');
+        choice.classList.add('btn','scary','btn-choice','text-wrap', 'option');
         
         optionNode.appendChild(choice);
     }
@@ -51,7 +68,7 @@
     function callDecision(element) {
         var optionId = $(element).attr("id").replace("choice_", "");
         addDecision(optionId);
-        animate();
+        animate('#description');
     }
     
     function addDecision(Id) {
@@ -95,25 +112,24 @@
         });
     };
     
-    function animate () {
-        var des = $('#description');
+    function animate (elementId) {
+        var des = $(elementId);
         
         des.css('opacity', 0);
         
         des.characterize('<span />', {
-          class: 'fd',
-          css: {
-            opacity: 0
-        }
-    });
-    
-    des.css('opacity', 1);
-    
-    $('.fd').each(function (i) {
-        $(this).animate({opacity: 1}, (i + 1) * 20);
+            class: 'fd',
+            css: {
+                opacity: 0
+            }
+        });
+        
+        des.css('opacity', 1);
+        
+        $('.fd').each(function (i) {
+            $(this).animate({opacity: 1}, (i + 1) * 20);
         });
     }
-
     
 
     createOption();
@@ -121,6 +137,6 @@
 
     let savedId = sessionStorage.getItem(saveKey);
     addDecision(savedId ?? 0);
-    animate();
+    animate('#description');
     
 })();
